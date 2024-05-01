@@ -36,6 +36,7 @@ The Histrogram shows distributions of different features by class. Class 1 repre
        The models tried were Logistic regression and the Random forest. I tried 
        both models because they are good for binary classification and also I 
        wanted to see which one would perform better.
+       
 +---------------------+--------------+------------+-----------+-------------+-------------+
 | Model               |   Test Score |   Accuracy |   ROC AUC |   F-1 Score |   Precision |
 +=====================+==============+============+===========+=============+=============+
