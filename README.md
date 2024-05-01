@@ -2,9 +2,11 @@
 The repository holds attempt to apply Machine Learning algorithm to Santander Customer Satisfaction using data from "Banco Santander" Kaggle challenge (https://www.kaggle.com/competitions/santander-customer-satisfaction/submissions#)
 
 # Overview
-Definition of the tasks / challenge: The task defined by the kaggle challenge was to predict if customers are satisfied or unsatisfied based on the feautres affecting the customers satisfaction. 
-Your approach: The approach in this repository formulates the problem as Regression task using Logistic Regression model as it is a simple and effective model for binary classification tasks. The data was split into training and testing sets and trained the Logistic Regression model on the training set.
-Summary of the performance achieved: Evaluated the model's performance on the testing set using metrics such as accuracy, and roc auc. The model was able to predict if most of the cutomers were satisfied or unsatisfied with the accuracy of 96% and roc auc of 50%. 
+- Definition of the tasks / challenge: The task defined by the kaggle challenge was to predict if customers are satisfied or unsatisfied based on the feautres affecting the customers satisfaction.
+   
+- Your approach: The approach in this repository formulates the problem as Regression task using Logistic Regression model as it is a simple and effective model for binary classification tasks. The data was split into training and testing sets and trained the Logistic Regression model on the training set.
+  
+- Summary of the performance achieved: Evaluated the model's performance on the testing set using metrics such as accuracy, and roc auc. The model was able to predict if most of the cutomers were satisfied or unsatisfied with the accuracy of 96% and roc auc of 50%. 
 
 # Summary of Workdone
 
