@@ -15,9 +15,9 @@ Summary of the performance achieved: Evaluated the model's performance on the te
     - Size: 215.2 MB, only used half of the data because it is a large dataset. Columns:76020, rows: 371
     - Instances (Train, Test, Validation Split): how many data points? 48652 features for training  for training, 15204 for testing, 12164 for validation. 75818 using the testiong 
     dataset. 
-# - Preprocessing / Clean up
+#  Preprocessing / Clean up
   - The dataset did not contain any missing values, no duplicates records. The only cleaning performed was to remove the outliers using the Z-score method. 
-# - Data Visualization
+#  Data Visualization
 Show a few visualization of the data and say a few words about what you see.
 ![Histogram of ID by Class](https://github.com/Pelezo/projectTemplate/assets/143844196/d0933c7d-0908-4221-a3c3-b650d411b349)
 ![image](https://github.com/Pelezo/projectTemplate/assets/143844196/15a5ec75-972e-44a6-ac76-265ae263f7a2)
