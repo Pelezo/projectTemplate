@@ -67,7 +67,7 @@ The Histrogram shows distributions of different features by class. Class 1 repre
 +---------------------+--------------+------------+-----------+-------------+-------------+
 
  # Conclusions
-    Machine Learning algorithm is good to make predictions. 
+    Machine Learning algorithm is good at making predictions and it can estimate future outcomes based on the data that we have. 
  # Future Work
         - Trying different hyperparameters for the model.
         - Trying different features or feature engineering techniques.
