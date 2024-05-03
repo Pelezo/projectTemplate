@@ -21,7 +21,7 @@ The repository holds attempt to apply Machine Learning algorithms to Santander C
   - The dataset did not contain any missing values, no duplicates records. The only cleaning performed was to remove the outliers using the Z-score method. 
 #  Data Visualization
 Show a few visualization of the data and say a few words about what you see.
-![Histogram of ID by Class](https://github.com/Pelezo/projectTemplate/assets/143844196/d0933c7d-0908-4221-a3c3-b650d411b349)
+![image](https://github.com/Pelezo/projectTemplate/assets/143844196/ebbbbe44-9f4e-444c-9637-44f22dde4d79)
 ![image](https://github.com/Pelezo/projectTemplate/assets/143844196/15a5ec75-972e-44a6-ac76-265ae263f7a2)
 The Histrogram shows distributions of different features by class. Class 1 represents unsatisfied and class 0 represents the satisfied. It feature shows clear separation between the two classes. Also, the classes are unbalanced there is more of class 0 than 1. 
 
