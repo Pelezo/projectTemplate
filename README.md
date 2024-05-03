@@ -1,5 +1,5 @@
 # Project Title
-The repository holds attempt to apply Machine Learning algorithm to Santander Customer Satisfaction using data from "Banco Santander" Kaggle challenge (https://www.kaggle.com/competitions/santander-customer-satisfaction/submissions#)
+The repository holds attempt to apply Machine Learning algorithms to Santander Customer Satisfaction using data from "Banco Santander" Kaggle challenge (https://www.kaggle.com/competitions/santander-customer-satisfaction/submissions#)
 
 # Overview
 - Definition of the tasks / challenge: The task defined by the kaggle challenge was to predict if customers are satisfied or unsatisfied based on the feautres affecting the customers satisfaction.
