@@ -58,13 +58,7 @@ The Histrogram shows distributions of different features by class. Class 1 repre
   - Visualization
    ![image](https://github.com/Pelezo/projectTemplate/assets/143844196/aba6d723-2b0a-4c36-9a73-769eae07f5b1)
   - Show/compare results in one table.
-+---------------------+--------------+------------+-----------+-------------+-------------+
-| Model               |   Test Score |   Accuracy |   ROC AUC |   F-1 Score |   Precision |
-+=====================+==============+============+===========+=============+=============+
-| Logistic Regression |     0.958366 |   0.958366 |  0.500755 |   0.0423601 |    0.259259 |
-+---------------------+--------------+------------+-----------+-------------+-------------+
-| Random Forest       |     0.958366 |   0.958366 |  0.500755 |   0.0423601 |    0.259259 |
-+---------------------+--------------+------------+-----------+-------------+-------------+
+    ![image](https://github.com/Pelezo/projectTemplate/assets/143844196/45b87d96-bc6a-4755-a8f6-9a32de6087ab)
 
  # Conclusions
     Machine Learning algorithm is good at making predictions and it can estimate future outcomes based on the data that we have. 
