@@ -4,9 +4,9 @@ The repository holds attempt to apply Machine Learning algorithms to Santander C
 # Overview
 - Definition of the tasks / challenge: The task defined by the kaggle challenge was to predict if customers are satisfied or unsatisfied based on the feautres affecting the customers satisfaction.
    
-- Your approach: The approach in this repository formulates the problem as Regression task using Logistic Regression model as it is a simple and effective model for binary classification tasks. The data was split into training and testing sets and trained the Logistic Regression model on the training set.
+- Your approach: The approach in this repository formulates the problem as Regression task using Logistic Regression model and random forest classifier as they are and effective models for binary classification tasks. The data was split into training and testing sets. I trained the Logistic Regression model on the training set.
   
-- Summary of the performance achieved: Evaluated the model's performance on the testing set using metrics such as accuracy, and roc auc. The model was able to predict if most of the cutomers were satisfied or unsatisfied with the accuracy of 96% and roc auc of 50%. 
+- Summary of the performance achieved: Evaluated the model's performance on the testing set using metrics such as accuracy, and roc auc. The Logistic Regession model was able to predict that most of the cutomers were satisfied with an accuracy of 96% and roc auc of 50%. The Random Forest Classifier had similar percentage.  
 
 # Summary of Workdone
 
@@ -15,7 +15,7 @@ The repository holds attempt to apply Machine Learning algorithms to Santander C
     - Type: 
          - Input: CSV file of features, output: satisfied/unsatisfied flag in the last column
     - Size: 215.2 MB, only used half of the data because it is a large dataset. Columns:76020, rows: 371
-    - Instances (Train, Test, Validation Split): how many data points? 48652 features for training  for training, 15204 for testing, 12164 for validation. 75818 using the testiong 
+    - Instances (Train, Test, Validation Split): how many data points? 48652 features for training  for training, 15204 for testing, 12164 for validation. 75818 using the testing 
     dataset. 
 #  Preprocessing / Clean up
   - The dataset did not contain any missing values, no duplicates records. The only cleaning performed was to remove the outliers using the Z-score method. 
@@ -35,17 +35,9 @@ The Histrogram shows distributions of different features by class. Class 1 repre
         the test data.
 
      - Models
-       The models tried were Logistic regression and the Random forest. I tried 
+       The models tried were Logistic regression and the Random forest Classifier. I tried 
        both models because they are good for binary classification and also I 
        wanted to see which one would perform better.
-       
-+---------------------+--------------+------------+-----------+-------------+-------------+
-| Model               |   Test Score |   Accuracy |   ROC AUC |   F-1 Score |   Precision |
-+=====================+==============+============+===========+=============+=============+
-| Logistic Regression |     0.958366 |   0.958366 |  0.500755 |   0.0423601 |    0.259259 |
-+---------------------+--------------+------------+-----------+-------------+-------------+
-| Random Forest       |     0.958366 |   0.958366 |  0.500755 |   0.0423601 |    0.259259 |
-+---------------------+--------------+------------+-----------+-------------+-------------+
 
 # Training
   - Describe the training:
@@ -59,12 +51,20 @@ The Histrogram shows distributions of different features by class. Class 1 repre
         - There were no issues while training. 
   - Performance Comparison
         - Evaluate the Logistic regression model I used the Roc AUC, Accuracy and Validation Score. For the Random Forest Classifier I used the Accuracy, Precision, F-1 Validation 
-        score and Test score. In the Logistic regression model the accuracy score was good indicating the model performed well, but ROC AUC was low indicating that the model is not 
+        score and test score. In the Logistic regression model the accuracy score was good indicating the model performed well, but ROC AUC was low indicating that the model is not 
         able to learn any meaningful patterns in the data that can be used to predict the class of new examples. Random forest Classifier I got good results except for F-1 and the 
         precision 
-   
-  - Show/compare results in one table.
+# Performance comparison
+  - Visualization
    ![image](https://github.com/Pelezo/projectTemplate/assets/143844196/aba6d723-2b0a-4c36-9a73-769eae07f5b1)
+  - Show/compare results in one table.
++---------------------+--------------+------------+-----------+-------------+-------------+
+| Model               |   Test Score |   Accuracy |   ROC AUC |   F-1 Score |   Precision |
++=====================+==============+============+===========+=============+=============+
+| Logistic Regression |     0.958366 |   0.958366 |  0.500755 |   0.0423601 |    0.259259 |
++---------------------+--------------+------------+-----------+-------------+-------------+
+| Random Forest       |     0.958366 |   0.958366 |  0.500755 |   0.0423601 |    0.259259 |
++---------------------+--------------+------------+-----------+-------------+-------------+
 
  # Conclusions
     Machine Learning algorithm is good to make predictions. 
@@ -84,7 +84,7 @@ The Histrogram shows distributions of different features by class. Class 1 repre
  # Overview of files in repository
     - DataUnderstandingKagg.ipynb: Loads the data and takes the first look to the dataset. 
     - DataVisualizationKag.ipynb: Creates some Visualization of the data to help understand the data better.
-    - KaggleChallenge.ipynb: Prepares the data for the machine learning, creates and evaluates the model. 
+    - KaggleChallenge.ipynb: Prepares the data for the machine learning, creates and evaluates the models. 
  # Software Setup
    - Libraries:
      Pandas 
