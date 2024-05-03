@@ -23,7 +23,11 @@ The repository holds attempt to apply Machine Learning algorithms to Santander C
 Show a few visualization of the data and say a few words about what you see.
 ![image](https://github.com/Pelezo/projectTemplate/assets/143844196/ebbbbe44-9f4e-444c-9637-44f22dde4d79)
 ![image](https://github.com/Pelezo/projectTemplate/assets/143844196/15a5ec75-972e-44a6-ac76-265ae263f7a2)
-The Histrogram shows distributions of different features by class. Class 1 represents unsatisfied and class 0 represents the satisfied. It feature shows clear separation between the two classes. Also, the classes are unbalanced there is more of class 0 than 1. 
+![image](https://github.com/Pelezo/projectTemplate/assets/143844196/10411b8a-8db3-4770-b10f-92bb5b1e3e0a)
+![image](https://github.com/Pelezo/projectTemplate/assets/143844196/99d9077a-1c4d-4de9-bffa-068422e03d01)
+
+
+The Histrogram shows distributions of different features by class. Class 1 represents unsatisfied and class 0 represents the satisfied. It feature shows clear separation between the two classes. Also, the classes are unbalanced there is more of class 0 than 1. Also, the histogram are before and after rescalling.
 
 # Problem Formulation
   - Define:
@@ -56,9 +60,11 @@ The Histrogram shows distributions of different features by class. Class 1 repre
         precision 
 # Performance comparison
   - Visualization
-   ![image](https://github.com/Pelezo/projectTemplate/assets/143844196/aba6d723-2b0a-4c36-9a73-769eae07f5b1)
+  ![image](https://github.com/Pelezo/projectTemplate/assets/143844196/2cb245c6-485d-4a10-90de-02a0a05b8793)
+
   - Show/compare results in one table.
-    ![image](https://github.com/Pelezo/projectTemplate/assets/143844196/45b87d96-bc6a-4755-a8f6-9a32de6087ab)
+   ![image](https://github.com/Pelezo/projectTemplate/assets/143844196/7a00a727-4801-4e85-a9ed-eb8adee69fa9)
+
 
  # Conclusions
     Machine Learning algorithm is good at making predictions and it can estimate future outcomes based on the data that we have. 
